@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
-          base: header,metadata
+          base: metadata
           base_indepth: yes
           config_timezone: Asia/Tokyo
           plugin_languages: yes
