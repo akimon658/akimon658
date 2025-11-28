@@ -27,5 +27,4 @@ jobs:
           plugin_notable_filter: stars:>100
           plugin_notable_from: all
           plugin_notable_repositories: yes
-          plugin_notable_types: commit,issue,pull_request
           token: ${{ secrets.METRICS_TOKEN }}
